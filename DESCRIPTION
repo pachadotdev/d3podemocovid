@@ -1,0 +1,26 @@
+Package: d3podemocovid
+Title: d3po short demonstration
+Version: 0.0.0.9000
+Authors@R: person('Mauricio', 'Vargas Sepulveda', email = 'm.sepulveda@mail.utoronto.ca', role = c('cre', 'aut'))
+Description: A short demonstration of d3po functions using COVID data for Canada. The data was obtained from th Government of Canada.
+License: MIT + file LICENSE
+Imports: 
+    config (>= 0.3.1),
+    d3po,
+    dplyr,
+    golem (>= 0.4.0),
+    lubridate,
+    magrittr,
+    rlang,
+    shiny (>= 1.7.3),
+    shinydashboard
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.2
+Depends: 
+    R (>= 2.10)
+URL: https://github.com/pachadotdev/d3podemocovid
+BugReports: https://github.com/pachadotdev/d3podemocovid/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
